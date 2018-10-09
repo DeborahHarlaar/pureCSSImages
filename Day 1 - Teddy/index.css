@@ -1,0 +1,157 @@
+body{
+	background-color: #8CBA80;
+}
+
+.container{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	margin-top: 10%;
+	display: block;
+	position: relative;
+}
+
+.head{
+	background-color: #EDAE49;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 16.5%;
+	left: 25%;
+}
+
+.headCopy{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #EDAE49;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.leftEar{
+	position: absolute;
+	z-index: 1;
+	background-color: #EDAE49;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	top: -10%;
+	left: -20%;
+}
+
+.rightEar{
+	position: absolute;
+	z-index: 1;
+	background-color: #EDAE49;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	top: -10%;
+	right: -20%;
+}
+
+.innerEar{
+	position: absolute;
+	border-radius: 50%;
+	background-color: #F9EDCC;
+	width: 60%;
+	height: 60%;
+	top: 20%;
+	left: 20%;
+}
+
+.leftEye{
+	background-color: #4B4237;
+	width: 10%;
+	height: 10%;
+	border-radius: 50%;
+	z-index: 3;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+}
+
+.rightEye{
+	background-color: #4B4237;
+	width: 10%;
+	height: 10%;
+	border-radius: 50%;
+	z-index: 3;
+	position: absolute;
+	top: 50%;
+	right: 25%;
+}
+
+.pupil{
+	background-color: white;
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top: 15%;
+	left: 15%;
+	border-radius: 50%;
+}
+
+.blushLeft{
+	position: absolute;
+	width: 15%;
+	height: 7%;
+	background-color: rgba(214,143,214,0.3);
+	border-radius: 50%;
+	z-index: 3;
+	top: 65%;
+	left: 10%;
+}
+
+.blushRight{
+	position: absolute;
+	width: 15%;
+	height: 7%;
+	background-color: rgba(214,143,214,0.3);
+	border-radius: 50%;
+	z-index: 3;
+	top: 65%;
+	right: 10%;
+}
+
+.mouthArea{
+	z-index: 3;
+	background-color: #F9EDCC;
+	position: absolute;
+	width: 50%;
+	height: 35%;
+	bottom: 0;
+	left: 25%;
+	border-radius: 50%;
+}
+
+.mouth{
+	position: absolute;
+	width: 3%;
+	height: 25%;
+	background-color: #4B4237;
+	left: 48.5%;
+	top: 35%;
+}
+
+.smile{
+	position: absolute;
+	border-bottom: 3px #4B4237 solid;
+	width: 40%;
+	height: 30%;
+	left: 30%;
+	top: 30%;
+	border-radius: 50%;
+}
+
+.nose{
+	position: absolute;
+	background-color: #4B4237;
+	width: 40%;
+	height: 30%;
+	border-radius: 50%;
+	left: 30%;
+	top: 5%;
+}

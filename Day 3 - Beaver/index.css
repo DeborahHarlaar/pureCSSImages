@@ -1,0 +1,298 @@
+body{
+	background-color: #AED1E6;
+}
+
+.container{
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+	display: block;
+	position: relative;
+}
+
+.head{
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
+	position: absolute;
+	top: 10%;
+	left: 37.5%;
+}
+
+.headCopy{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 4px solid #020202;
+	background-color: #AF9164;
+	z-index: 2;
+	top: -4px;
+	left: -4px;
+}
+
+.leftEar, .rightEar{
+	background-color: #AF9164;
+	border: 4px solid #020202;
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.leftEar{
+	left: -3%;
+}
+
+.rightEar{
+	right: -3%;
+}
+
+.leftEye, .rightEye{
+	background-color: #F7F3E3;
+	border: 4px solid #020202;
+	width: 40%;
+	height: 55%;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 3;
+	top: 3%;
+}
+
+.leftEye{
+	left: 7%;
+}
+
+.rightEye{
+	right: 7%;
+}
+
+.pupil{
+	background-color: #020202;
+	position: absolute;
+	left: 15%;
+	top: 15%;
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+}
+
+.leftReflection, .rightReflection{
+	background-color: white;
+	height: 20%;
+	width: 30%;
+	border-radius: 50%;
+	position: absolute;
+	top: 5%;
+	right: 16%;
+}
+
+.leftMouthArea, .rightMouthArea{
+	border-radius: 50%;
+	background-color: #F7F3E3;
+	position: absolute;
+	top: 55%;
+	z-index: 6;
+	border: 4px solid #020202;
+}
+
+.leftMouthArea{
+	left: 5%;
+	width: 50%;
+	height: 50%;
+}
+
+.rightMouthArea{
+	right: 5%;
+	width: 50%;
+	height: 50%;
+}
+
+.mouthBorder{
+	background-color: #F7F3E3;
+	width: 90%;
+	height: 74%;
+	position: absolute;
+	border-radius: 50%;
+	top: 13%;
+	left: 50%;
+}
+
+.nose{
+	background-color: #020202;
+	position: absolute;
+	height: 45%;
+	width: 90%;
+	border-radius: 50%;
+	left: 42.5%;
+}
+
+.leftTooth, .rightTooth{
+	background-color: #F7F3E3;
+	border: 4px solid #020202;
+	height: 50%;
+	width: 25%;
+	position: absolute;
+	top: 100%;
+	z-index: 5;
+}
+
+.leftTooth{
+	left: 25.75%;
+	transform: skew(8deg);
+}
+
+.rightTooth{
+	right: 22.5%;
+}
+
+.body{
+	width: 25%;
+	height: 40%;
+	border-radius: 50%;
+	position: absolute;
+	left: 37.5%;
+	top: 25%;
+}
+
+.bodyCopy{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 4px solid #020202;
+	background-color: #AF9164;
+	z-index: 3;
+}
+
+.tail{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 4px solid #020202;
+	background-color: #AF9164;
+	transform: rotate(90deg);
+	top: 19%;
+	left: -45%;
+	z-index: 1
+}
+
+.leftLine, .leftLineCopy, .rightLine, .rightLineCopy{
+	background-color: #020202;
+	width: 4px;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.leftLine, .leftLineCopy{
+	transform: rotate(-15deg);
+}
+
+.leftLine{
+	left: 70%;
+	height: 85%;
+}
+
+.leftLineCopy{
+	left: 30%;
+	height: 102%;
+}
+
+.rightLine, .rightLineCopy{
+	transform: rotate(75deg);
+}
+
+.rightLine{
+	top: 58%;
+	height: 49%;
+	left: 54%;
+}
+
+.rightLineCopy{
+	height: 65%;
+	top: 23%;
+	left: 50%;
+}
+
+.leftFoot, .rightFoot{
+	background-color: #020202;
+	height: 20%;
+	width: 45%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	z-index: 2;
+	position: absolute;
+	top: 82%;
+}
+
+.leftFoot{
+	left: -5%;
+}
+
+.rightFoot{
+	right: -5%;
+}
+
+.leftArm, .rightArm{
+	width: 45%;
+	height: 20%;
+	border-radius: 50%;
+	z-index: 4;
+	border: 4px solid #020202;
+	background-color: #AF9164;
+	position: absolute;
+	transform: rotate(90deg);
+	top: 45%;
+}
+
+.leftArm{
+	left: -4%;
+}
+
+.rightArm{
+	right: -7%;
+}
+
+.finger1, .finger2, .finger3, .finger4, .finger2Copy, .finger3Copy{
+	position: absolute;
+	height: 4px;
+	width: 22%;
+	background-color: #020202;
+	z-index: 5;
+}
+
+.finger1{
+	right: 7%;
+	bottom: 20%;
+}
+
+.finger4{
+	right: 7%;
+	bottom: 75%;
+}
+
+.finger3{
+	right: 0;
+	bottom: 38%;
+	width: 29%;
+}
+
+.finger2{
+	bottom: 55%;
+	right: 0;
+	width: 39%;
+}
+
+.finger2Copy{
+	bottom: 38%;
+	right: 0;
+	width: 39%;
+}
+
+.finger3Copy{
+	right: 0;
+	bottom: 55%;
+	width: 29%;
+}
