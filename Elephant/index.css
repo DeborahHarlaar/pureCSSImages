@@ -202,3 +202,42 @@ body{
 	background-color: #EAF2EF;
 	width: 20%;
 }
+
+@media(max-width: 510px){
+	.container{
+		width: 415px;
+		height: 415px;
+	}
+	.leftTooth::before, .rightTooth::before{
+		top: -29%;
+		left: -18%;
+	}
+}
+
+@media(max-width: 425px){
+	.container{
+		width: 365px;
+		height: 365px;
+	}
+	.leftTooth::before, .rightTooth::before {
+		top: -30%;
+		left: -21.5%;
+	}
+	.rightTooth{
+		right: 24%;
+	}
+}
+
+@media(max-width: 375px){
+	.container{
+		width: 310px;
+		height: 310px;
+	}
+	.leftTooth::before, .rightTooth::before {
+		top: -32%;
+		left: -25%;
+	}
+	.rightTooth {
+		right: 23%;
+	}
+}

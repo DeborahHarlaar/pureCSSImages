@@ -191,3 +191,24 @@ body{
 .rightTooth{
 	left: 50.5%;
 }
+
+@media(max-width: 510px){
+	.container{
+		width: 415px;
+		height: 415px;
+	}
+}
+
+@media(max-width: 425px){
+	.container{
+		width: 365px;
+		height: 365px;
+	}
+}
+
+@media(max-width: 375px){
+	.container{
+		width: 310px;
+		height: 310px;
+	}
+}

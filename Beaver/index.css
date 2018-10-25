@@ -296,3 +296,77 @@ body{
 	bottom: 55%;
 	width: 29%;
 }
+
+@media(max-width: 1024px){
+	.container{
+		width: 750px;
+		height: 750px;
+	}
+	.rightTooth{
+		margin-top: 1px;
+	}
+	.mouthBorder{
+		height: 75%;
+	}
+}
+
+@media(max-width: 768px){
+	.container{
+		width: 650px;
+		height: 650px;
+	}
+	.mouthBorder{
+		height: 76%;
+	}
+	.leftEye, .rightEye{
+		width: 38%;
+	}
+	.rightTooth{
+		margin-top: 0;
+	}
+	.leftFoot, .rightFoot{
+		top: 84%;
+	}
+}
+
+@media(max-width: 660px){
+	.container{
+		width: 550px;
+		height: 550px;
+	}
+	.rightTooth{
+		margin-top: 1px;
+	}
+	.mouthBorder{
+		height: 77%;
+	}
+}
+
+@media(max-width: 560px){
+	.container{
+		width: 450px;
+		height: 450px;
+	}
+	.rightTooth{
+		margin-top: 0;
+	}
+	.mouthBorder{
+		height: 79%;
+	}
+}
+
+@media(max-width: 460px){
+	.container{
+		width: 420px;
+		height: 420px;
+	}	
+	.leftEye, .rightEye{
+		width: 36%;
+	}
+	.leftEar {
+		left: -7%;
+	}
+	.rightEar {
+		right: -8%;
+	}
+}

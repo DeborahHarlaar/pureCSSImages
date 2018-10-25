@@ -155,3 +155,24 @@ body{
 	left: 30%;
 	top: 5%;
 }
+
+@media(max-width: 600px){
+	.container{
+		width: 400px;
+		height: 400px;
+	}
+}
+
+@media(max-width: 425px){
+	.container{
+		width: 350px;
+		height: 350px;
+	}
+}
+
+@media(max-width: 375px){
+	.container{
+		width: 310px;
+		height: 310px;
+	}
+}
